@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Homelab-Dashboards/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Homelab-Dashboards?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Homelab-Dashboards/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Homelab-Dashboards?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Homelab-Dashboards/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Homelab-Dashboards?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Homelab-Dashboards/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Homelab-Dashboards?style=flat-square" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Homelab-Dashboards/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -68,79 +68,79 @@ While homelab dashboards are fundamentally designed to run on local private netw
 
 The premier open-source dashboards and self-hosted service panels, ranked in descending order by GitHub stargazers:
 
-### 1. **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)
+### 1. **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub_Stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)
 - **Focus**: Self-hosted uptime monitoring & status pages.
 - **Overview**: A fancy self-hosted monitoring tool featuring real-time uptime pinging (HTTP/HTTPS, TCP, Ping, DNS, Docker container), multi-language UI, rich notification integrations (Telegram, Discord, Slack, Gotify, Webhooks), and public status pages.
 - **Trade-offs**: Built for status checks and incident alerts rather than general application launcher grids.
 - **Best for**: Homelabbers needing a reliable, self-hosted service monitor and public/private status page.
 
-### 2. **[Portainer](https://github.com/portainer/portainer)** [![GitHub stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)
+### 2. **[Portainer](https://github.com/portainer/portainer)** [![GitHub_Stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)
 - **Focus**: Container management and orchestrator dashboard.
 - **Overview**: The universal graphical container dashboard for Docker, Docker Swarm, and Kubernetes environments. Inspect container health, manage volumes, trigger redeployments, and view container logs from a web browser.
 - **Trade-offs**: Focuses on DevOps and container lifecycle management rather than serving as a daily bookmark launcher.
 - **Best for**: Server admins managing multi-container Docker stacks and home clusters.
 
-### 3. **[Glance](https://github.com/glanceapp/glance)** [![GitHub stars](https://img.shields.io/github/stars/glanceapp/glance?style=social&color=white)](https://github.com/glanceapp/glance/stargazers)
+### 3. **[Glance](https://github.com/glanceapp/glance)** [![GitHub_Stars](https://img.shields.io/github/stars/glanceapp/glance?style=social&color=white)](https://github.com/glanceapp/glance/stargazers)
 - **Focus**: Feed-first start page & morning brief dashboard.
 - **Overview**: An all-in-one lightweight dashboard designed to aggregate RSS feeds, Reddit posts, YouTube subscriptions, weather, stock tickers, and server bookmarks into a sleek single feed.
 - **Trade-offs**: Less oriented toward deep media automation (*arr suite) queries.
 - **Best for**: Users looking for an informative, aesthetic new-tab dashboard and daily overview.
 
-### 4. **[Homepage](https://github.com/gethomepage/homepage)** [![GitHub stars](https://img.shields.io/github/stars/gethomepage/homepage?style=social&color=white)](https://github.com/gethomepage/homepage/stargazers)
+### 4. **[Homepage](https://github.com/gethomepage/homepage)** [![GitHub_Stars](https://img.shields.io/github/stars/gethomepage/homepage?style=social&color=white)](https://github.com/gethomepage/homepage/stargazers)
 - **Focus**: Fast, secure, and deeply integrated live service dashboard.
 - **Overview**: YAML-configured modern application dashboard with 100+ native service widgets (Docker, Plex, Jellyfin, Sonarr, Radarr, qBittorrent, Pi-hole, AdGuard Home). Server-side rendered with instant search, automatic localization, and custom info widgets.
 - **Trade-offs**: Requires configuration via YAML files (no visual drag-and-drop web editor).
 - **Best for**: Homelab power users running 5+ services who want deep API telemetry without UI lag.
 
-### 5. **[Dashy](https://github.com/lissy93/dashy)** [![GitHub stars](https://img.shields.io/github/stars/lissy93/dashy?style=social&color=white)](https://github.com/lissy93/dashy/stargazers)
+### 5. **[Dashy](https://github.com/lissy93/dashy)** [![GitHub_Stars](https://img.shields.io/github/stars/lissy93/dashy?style=social&color=white)](https://github.com/lissy93/dashy/stargazers)
 - **Focus**: The feature-maximalist and highly customizable dashboard.
 - **Overview**: Supports dozens of themes, multi-page layouts, animations, status checks, keyboard shortcuts, multiple search providers, and integrated authentication. Configurable either via web UI or YAML.
 - **Trade-offs**: Can feel complex for simple setups; client-side Vue rendering can be heavier than lightweight alternatives.
 - **Best for**: Enthusiasts who want complete visual freedom and rich custom CSS/widget layouts.
 
-### 6. **[Beszel](https://github.com/henrygd/beszel)** [![GitHub stars](https://img.shields.io/github/stars/henrygd/beszel?style=social&color=white)](https://github.com/henrygd/beszel/stargazers)
+### 6. **[Beszel](https://github.com/henrygd/beszel)** [![GitHub_Stars](https://img.shields.io/github/stars/henrygd/beszel?style=social&color=white)](https://github.com/henrygd/beszel/stargazers)
 - **Focus**: Lightweight homelab server hardware monitoring dashboard.
 - **Overview**: A streamlined, modern server monitoring dashboard paired with lightweight agents to track CPU, memory, disk, network, temperature, and container metrics with historical charts and alerts.
 - **Trade-offs**: Specifically focused on metrics and system stats rather than application navigation tiles.
 - **Best for**: Multi-node homelab telemetry without the overhead and complexity of Prometheus/Grafana.
 
-### 7. **[Homer](https://github.com/bastienwirtz/homer)** [![GitHub stars](https://img.shields.io/github/stars/bastienwirtz/homer?style=social&color=white)](https://github.com/bastienwirtz/homer/stargazers)
+### 7. **[Homer](https://github.com/bastienwirtz/homer)** [![GitHub_Stars](https://img.shields.io/github/stars/bastienwirtz/homer?style=social&color=white)](https://github.com/bastienwirtz/homer/stargazers)
 - **Focus**: Simple, static, lightweight YAML-driven startpage.
 - **Overview**: A dead-simple static service bookmark launcher configured with a single `config.yml` file. Has zero backend dependencies and virtually zero memory footprint (runs smoothly even on a Raspberry Pi Zero).
 - **Trade-offs**: Purely static links; no live polling widgets or dynamic service status checks.
 - **Best for**: Minimalists who value instant rendering and effortless single-file backups.
 
-### 8. **[Heimdall](https://github.com/linuxserver/Heimdall)** [![GitHub stars](https://img.shields.io/github/stars/linuxserver/Heimdall)](https://github.com/linuxserver/Heimdall/stargazers)
+### 8. **[Heimdall](https://github.com/linuxserver/Heimdall)** [![GitHub_Stars](https://img.shields.io/github/stars/linuxserver/Heimdall)](https://github.com/linuxserver/Heimdall/stargazers)
 - **Focus**: Beginner-friendly drag-and-drop web launcher.
 - **Overview**: The classic homelab application dashboard. Provides a clean web GUI to add links, pre-styled application tiles with auto-discovered icons, and enhanced apps displaying basic live notifications (e.g., torrent download counts).
 - **Trade-offs**: Heavier PHP/Laravel framework; less flexible layout options compared to modern widget-based alternatives.
 - **Best for**: Beginners who want a dashboard up and running in under 5 minutes without touching terminal configs.
 
-### 9. **[Dashboard Icons](https://github.com/homarr-labs/dashboard-icons)** [![GitHub stars](https://img.shields.io/github/stars/homarr-labs/dashboard-icons?style=social&color=white)](https://github.com/homarr-labs/dashboard-icons/stargazers)
+### 9. **[Dashboard Icons](https://github.com/homarr-labs/dashboard-icons)** [![GitHub_Stars](https://img.shields.io/github/stars/homarr-labs/dashboard-icons?style=social&color=white)](https://github.com/homarr-labs/dashboard-icons/stargazers)
 - **Focus**: Dedicated icon repository for homelab dashboards.
 - **Overview**: A curated, high-resolution collection of SVG/PNG icons designed specifically for homelab dashboards (Homarr, Homepage, Dashy, Flame, Heimdall) covering popular self-hosted software and cloud services.
 - **Trade-offs**: Icon asset repository rather than a standalone dashboard interface.
 - **Best for**: Polishing your custom dashboard interface with matching vector artwork.
 
-### 10. **[Flame](https://github.com/pawelmalak/flame)** [![GitHub stars](https://img.shields.io/github/stars/pawelmalak/flame?style=social&color=white)](https://github.com/pawelmalak/flame/stargazers)
+### 10. **[Flame](https://github.com/pawelmalak/flame)** [![GitHub_Stars](https://img.shields.io/github/stars/pawelmalak/flame?style=social&color=white)](https://github.com/pawelmalak/flame/stargazers)
 - **Focus**: Minimalist start page with Docker auto-discovery.
 - **Overview**: Fast, clean start page with a built-in search bar, weather widget, and bookmark grouping. Features automatic app discovery via Docker container labels and a built-in GUI editor.
 - **Trade-offs**: Limited widget library; maintenance pace has slowed.
 - **Best for**: Users looking for a fast, uncluttered browser homepage and quick launcher.
 
-### 11. **[Organizr](https://github.com/causefx/Organizr)** [![GitHub stars](https://img.shields.io/github/stars/causefx/Organizr?style=social&color=white)](https://github.com/causefx/Organizr/stargazers)
+### 11. **[Organizr](https://github.com/causefx/Organizr)** [![GitHub_Stars](https://img.shields.io/github/stars/causefx/Organizr?style=social&color=white)](https://github.com/causefx/Organizr/stargazers)
 - **Focus**: Tabbed HTPC & homelab service organizer.
 - **Overview**: Allows you to embed your existing homelab and media applications (Plex, Sonarr, Radarr, transmission) into single-tab or multi-tab iFrames with custom user access controls and authentication.
 - **Trade-offs**: Relies on iFrames (which some modern web apps block via CSP headers unless configured).
 - **Best for**: Media-centric home theaters wanting a unified single-window management interface.
 
-### 12. **[Homarr](https://github.com/homarr-labs/homarr)** [![GitHub stars](https://img.shields.io/github/stars/homarr-labs/homarr?style=social&color=white)](https://github.com/homarr-labs/homarr/stargazers)
+### 12. **[Homarr](https://github.com/homarr-labs/homarr)** [![GitHub_Stars](https://img.shields.io/github/stars/homarr-labs/homarr?style=social&color=white)](https://github.com/homarr-labs/homarr/stargazers)
 - **Focus**: Modular homelab dashboard with deep media automation integrations.
 - **Overview**: Modern dashboard with drag-and-drop customization, multi-user authentication (OIDC/LDAP), Docker management, and direct integration with the Plex/*arr stack (Sonarr, Radarr, Lidarr, Deluge, Transmission).
 - **Trade-offs**: Higher resource consumption than static YAML alternatives; larger footprint.
 - **Best for**: Homelabbers who treat their dashboard as an active media and download control center.
 
-### 13. **[Stackyard](https://github.com/SandObserver/Stackyard)** [![GitHub stars](https://img.shields.io/github/stars/SandObserver/Stackyard?style=social&color=white)](https://github.com/SandObserver/Stackyard/stargazers)
+### 13. **[Stackyard](https://github.com/SandObserver/Stackyard)** [![GitHub_Stars](https://img.shields.io/github/stars/SandObserver/Stackyard?style=social&color=white)](https://github.com/SandObserver/Stackyard/stargazers)
 - **Focus**: Calm, badge-centric dashboard with zero heavy charts.
 - **Overview**: A calm dashboard with zero dependencies where service status badges only appear when something requires attention, keeping your home start page quiet and purposeful.
 - **Trade-offs**: Smaller community and minimal widget library.
@@ -154,7 +154,7 @@ Contributions are warmly welcome! 🎉 If you would like to add a new project, d
 
 1. 🍴 **Fork the repo**.
 2. 🌿 **Create a new branch** (`git checkout -b feature/new-dashboard`).
-3. 📝 **Add/edit entries** in `README.md` following the existing format (include repo link, star badge, focus, description, and trade-offs).
+3. 📝 **Add/edit entries** in `README.md` following the existing format (include repo link, Stars_Badge, focus, description, and trade-offs).
 4. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
 ---
